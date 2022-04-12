@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * times_table - check descripition
- * Description: It prints 9 times table starting with 0
+ * times_table - check descripiti
+ * Description: It prints 9 times table starting with 0. 
  * Return: nothing.
  */ 
 
