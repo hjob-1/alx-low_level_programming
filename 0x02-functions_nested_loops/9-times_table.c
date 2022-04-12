@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * times_table - check descripition.
- * Description: It prints 9 times table starting with 0.
- *
+ * times_table -print product table.
+ * Description: It prints 9 times table starting with 0
  */ 
 void times_table(void)
 {
