@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
- * times_table - check descripition
- * Description: it prints 9 times table starting with 0
- * Return: nothing.
- */ 
+  * times_table - check descripition
+  * Description: It prints 9 times table starting with 0.
+  * Return: nothing.
+  */ 
+
 void times_table(void)
 {
 	int i, j;
