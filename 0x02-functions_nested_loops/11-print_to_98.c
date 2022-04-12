@@ -8,25 +8,14 @@
 void print_to_98(int n)
 {
 	int i;
-	const int LIMIT = 98;
-
-	if (n == LIMIT)
-		printf("%d",n);
-	else if (n > LIMIT) {
-		for (i = n; i >= LIMIT; i--)
-		{
-			printf("%d",i);
-			printf("%c",',');
-			printf("%c",' ');
-		}
+	
+	if (n <= 98)
+	{
+		for (i = n; n <= 97; n++)
+			printf("%d, ", i);
 	}
 	else
-	{
-		for (i = n; i <= LIMIT; i++)
-		{
-			printf("%d",i);
-			printf("%c",',');
-			printf("%c",' ');
-		}
-	}
+		for (i = n; n > 98; n--)
+			printf("%d, ", i);
+	printf("98\n");
 }
