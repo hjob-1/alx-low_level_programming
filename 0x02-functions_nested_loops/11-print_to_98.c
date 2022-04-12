@@ -5,10 +5,10 @@
  * followed by a new line
  * @n: it specify from where the number starts
  */
-#define LIMIT  98;
 void print_to_98(int n)
 {
 	int i;
+	const int LIMIT = 98;
 
 	if (n > LIMIT)
 	{
