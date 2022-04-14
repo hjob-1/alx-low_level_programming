@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- *print_line - prints n number of _
- *prints \n if n is less than 0
+ * print_line - prints n number of _
+ * prints \n if n is less than 0
+ * @n: is the number that decide the number of _
+ * Return: doesnt return
  */
 
 void print_line(int n)
@@ -20,4 +22,6 @@ void print_line(int n)
 			_putchar('_');
 		}
 	}
+
+	_putchar('\n');
 }
