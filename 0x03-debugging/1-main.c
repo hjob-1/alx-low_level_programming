@@ -13,6 +13,7 @@ int main(void)
 
 	i = 0;
 	/**
+	 * Descripition - since i will never incrementthe loop never end
 	 * while (i < 10)
 	 * {
 	 *	putchar(i);
