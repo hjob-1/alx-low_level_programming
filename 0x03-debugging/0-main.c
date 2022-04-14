@@ -10,5 +10,11 @@ int main(void)
 	i = 98;
 	positive_or_negative(i);
 	
+	i = 0;
+	positive_or_negative(i);
+
+	i = -10;
+	positive_or_negative(i);	
+	
 	return (0);
 }
