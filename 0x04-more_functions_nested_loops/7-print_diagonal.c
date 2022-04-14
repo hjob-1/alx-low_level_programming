@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_diagonal - print diagonal symbol for a given n times
  * @n: specified the number of digonals
@@ -21,6 +22,7 @@ void print_diagonal(int n)
 			{
 				_putchar('\t');
 			}
+
 			_putchar('\\');
 			_putchar('\n');
 		}
