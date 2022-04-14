@@ -3,7 +3,7 @@
 /**
  * print_diagonal - print diagonal symbol for a given n times
  * @n: specified the number of digonals
- * Return : return nothing
+ * Return: return nothing
  */
 
 void print_diagonal(int n)
@@ -26,6 +26,7 @@ void print_diagonal(int n)
 			_putchar('\\');
 			_putchar('\n');
 		}
+
 		_putchar('\n');
 	}
 }
