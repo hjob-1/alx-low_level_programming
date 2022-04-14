@@ -15,11 +15,11 @@
 	{
 		largest = a;
 	}
-	else if (b > a && b > c)
+	if (b > a && b > c)
 	{
 		largest = b;
 	}
-	else
+	if (c > a && c > b)
 	{
 		largest = c;
 	}
