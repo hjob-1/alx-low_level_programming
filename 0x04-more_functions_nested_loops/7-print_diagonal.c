@@ -1,4 +1,10 @@
-#include "main.c"
+#include "main.h"
+/**
+ * print_diagonal - print diagonal symbol for a given n times
+ * @n: specified the number of digonals
+ * Return : return nothing
+ */
+
 void print_diagonal(int n)
 {
 	int i;
