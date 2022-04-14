@@ -15,14 +15,13 @@ int main(void)
 	printf("Infinite loop incomming :(\n");
 
 	i = 0;
-
 	/**
+	 * Descripition - since i never incremented the condition always true
 	 * while (i < 10)
 	 * {
 	 *	putchar(i);
 	 *  }
 	 */
-
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
