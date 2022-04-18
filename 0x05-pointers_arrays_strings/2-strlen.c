@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
- *_strlen -determine the length of character
- *@s: stores the address of the paramter
+ *_strlen - prints the length of the chars
+ *@s: stores the values of chars
  */
 int _strlen(char *s)
 {
-	int i, len;
+	int len;
 
 	len = 0;
-	i = 0;
 
-	while (i)
+	while (len)
 	{
-		i++;
-		if (*(s + i) == '/0')
+		if (*(s + len) == "\0")
 		{
-		break;
+			break;
 		}
-	}
+		len++;
+	}	
 
-	return (i);
+	return (len);
 }
