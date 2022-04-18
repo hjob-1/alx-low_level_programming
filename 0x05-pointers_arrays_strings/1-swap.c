@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap - the swap function interchange the value of two var
+ * swap_int - the swap function interchange the value of two var
  * @a: pointer to the first paramter
  * @b: pointer to the second paramter
  *
