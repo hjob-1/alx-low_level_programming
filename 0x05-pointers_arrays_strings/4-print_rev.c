@@ -11,10 +11,9 @@ void print_rev(char *s)
 
 	while (*s != '\0')
 	{
-	 	len++;
+		len++;
 		s++;
 	}
-
 	while (len > 0)
 	{
 		s--;
