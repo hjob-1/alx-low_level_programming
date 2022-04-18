@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 -reset the paramtrs value to 98
- * @*n: pointer stores the address of the paramter value
+ * @n: n is  pointer which stores the address of the paramter value
  */
 
 void reset_to_98(int *n)
