@@ -15,11 +15,16 @@ void print_rev(char *s)
 		s++;
 	}
 
-	for (i = 0; i < len / 2; i++)
+	for (i = 0; i < len; i++)
 	{
 		tmp = s[i];
 		s[i] = s[len - i - 1];
 		s[len - i - 1] = tmp;
+	}
+
+	for ( i =0; i < len; i++)
+	{
+		_putchar(s[i]);
 	}
 
 
