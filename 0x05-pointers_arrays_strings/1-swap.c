@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * swap - the swap function interchange the value of two var
