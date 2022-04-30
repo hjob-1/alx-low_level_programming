@@ -1,43 +1,40 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 /**
- * main - add the positive nymbers
- * @argc: takes in a integer
+ * main - prints sum of positive numbers, followed by a new line
+ * @argc: takes in an integer
  * @argv: takes in a string
- * Return: 1 if arguments conatins non digit number ,else return 0
+ * Return: Always 0.
  */
-int isnumber(char *c);
 
 int main(int argc, char *argv[])
 {
-	int add, i;
+	int i, j, argLength, sum = 0;
 
-	add = 0;
-	
-	if (argc >= 3)
+	if (argc < 3)
+	{
+		printf("%d\n", 0);
+	}
+	else
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (isnumber(argv[i]) == '0')
+			argLength = strlen(argv[i]);
+
+			for (j = 0; j < argLength; j++)
 			{
-				add += atoi(argv[i]);
+				if (isdigit(*(argv[i] + j)) == 0)
+				{
+					printf("%s\n", "Error");
+					return (1);
+				}
 			}
-			else
-			{
-				printf("%s\n", "Error");
-				return (1);
-			}	
+			sum += atoi(argv[i]);
 		}
-	printf("%d\n", add);
+		printf("%d\n", sum);
 	}
-	else
-		printf("%s\n", "0");
-
 	return (0);
-}
-
-int isnumber(char *c)
-{
-	return (*c >= '0' && *c <= '9');
 }
