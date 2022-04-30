@@ -2,19 +2,19 @@
 #include <stdlib.h>
 
 /**
- * main - prints the multiplication of two numbers followed by new line
+ * main - prints result of the multiplication, followed by a new line
  * @argc: takes in an integer
  * @argv: takes in a string
- * Return:returns 1 if it has error and return 0 if success
+ * Return: Always 0.
  */
 
 int main(int argc, char *argv[])
 {
 	int mul;
 
-	if (argc <= 1)
+	if (argc < 3)
 	{
-		printf("Error\n");
+		printf("%s\n", "Error");
 		return (1);
 	}
 	else
