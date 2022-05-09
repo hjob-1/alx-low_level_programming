@@ -6,7 +6,8 @@
  * @owner: takes a string value
  */
 
-struct dog {
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
