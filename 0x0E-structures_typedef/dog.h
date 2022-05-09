@@ -1,6 +1,6 @@
 
 /**
- * struct dog - dog attributes
+ * dog - stores dog attributes
  * @name: name of the dog instance
  * @age: takes a real  number
  * @owner: takes a string value
