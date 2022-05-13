@@ -1,5 +1,6 @@
-#ifdef MAIN_H
-#define MAIN_H
+#ifndef function_pointers_h
+#define function_pointers_h
+#include <stddef.h>
 void print_name(char *name, void (*f)(char *));
 int _putchar(char c);
-#endif /*MIAN_H*/
+#endif /*function_pointers_h*/
