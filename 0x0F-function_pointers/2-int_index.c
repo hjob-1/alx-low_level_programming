@@ -10,18 +10,20 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+	int index;
 	int isfound;
 
 	if (size <= 0)
 		return (-1);
-	
-	for (i = 0; i < size; i++)
+	if (array && cmp)
 	{
-		isfound = cmp(array[i]);
+		for (index = 0; index < size; index++)
+		{
+			isfound = cmp(array[index]);
 
-		if (isfound)
-			return (i);	
+			if (isfound)
+				return (index);
+		}
 	}
 	return (-1);
 }
