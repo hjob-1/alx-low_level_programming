@@ -1,1 +1,0 @@
-first c learning day
