@@ -3,9 +3,9 @@
 /**
  * int_index - finds the index of an given element from the array
  * @size: takes an int value
+ * @array: takes int of elements
  * @cmp: a pointer points to a function
  * Return: either it doesn't find the elmt or size is less than 0 it return -1 .return 0 elmt found
- * @array: takes int of elements
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
