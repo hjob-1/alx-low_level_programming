@@ -1,4 +1,5 @@
 #include "function-pointers.h"
+#include <stdio.h>
 
 /**
  * array_iterator - prints the all the values of array
