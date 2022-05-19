@@ -11,7 +11,10 @@
  */
 size_t print_list(const list_t *h)
 {
-    int len = 0;
+    size_t len = 0;
+
+    if (h == null)
+        return (1);
 
     while (h != NULL)
     {
